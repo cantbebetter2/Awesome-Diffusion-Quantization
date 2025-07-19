@@ -22,6 +22,10 @@ A list of papers, docs, codes about diffusion quantization. This repo collects v
 * [[CVPR]](https://arxiv.org/abs/2411.17106) PassionSR: Post-Training Quantization with Adaptive Scale in One-Step Diffusion based Image Super-Resolution [[code]](https://github.com/libozhu03/PassionSR)![](https://img.shields.io/github/stars/libozhu03/PassionSR)
 * [[ICML]](https://arxiv.org/abs/2505.22167) Q-VDiT: Towards Accurate Quantization and Distillation of Video-Generation Diffusion Transformers [[code]](https://github.com/cantbebetter2/Q-VDiT)![](https://img.shields.io/github/stars/cantbebetter2/Q-VDiT)
 * [[ICML]](https://arxiv.org/abs/2411.10958) SageAttention2: Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization [[code]](https://github.com/thu-ml/SageAttention)![](https://img.shields.io/github/stars/thu-ml/SageAttention)
+* [[ICCV]](https://arxiv.org/abs/2507.10340) Text Embedding Knows How to Quantize Text-Guided Diffusion Models
+* [[ICCV]](https://arxiv.org/abs/2402.03666) QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning [[code]](https://github.com/hatchetProject/QuEST)![](https://img.shields.io/github/stars/hatchetProject/QuEST)
+* [[ICCV]](https://arxiv.org/abs/2507.12933) DMQ: Dissecting Outliers of Diffusion Models for Post-Training Quantization[[code]](https://github.com/LeeDongYeun/dmq)![](https://img.shields.io/github/stars/LeeDongYeun/dmq)
+* [[ICCV]](https://arxiv.org/abs/2503.06545) QuantCache: Adaptive Importance-Guided Quantization with Hierarchical Latent and Layer Caching for Video Generation [[code]](https://github.com/JunyiWuCode/QuantCache) ![](https://img.shields.io/github/stars/JunyiWuCode/QuantCache)
 * [[WACV]](https://arxiv.org/abs/2409.07756) DiTAS: Quantizing Diffusion Transformers via Enhanced Activation Smoothing [[code]](https://github.com/DZY122/DiTAS)![](https://img.shields.io/github/stars/DZY122/DiTAS)
 * [[ISCAS]](https://arxiv.org/abs/2504.07998) CDM-QTA: Quantized Training Acceleration for Efficient LoRA Fine-Tuning of Diffusion Model 
 * [[Arxiv]](https://arxiv.org/abs/2505.11497) QVGen: Pushing the Limit of Quantized Video Generative Models
@@ -29,13 +33,14 @@ A list of papers, docs, codes about diffusion quantization. This repo collects v
 * [[Arxiv]](https://arxiv.org/abs/2503.06930) Post-Training Quantization for Diffusion Transformer via Hierarchical Timestep Grouping
 * [[Arxiv]](https://arxiv.org/abs/2502.04056) TQ-DiT: Efficient Time-Aware Quantization for Diffusion Transformers
 * [[Arxiv]](https://arxiv.org/pdf/2503.15465) FP4DiT: Towards Effective Floating Point Quantization for Diffusion Transformers [[code]](https://github.com/cccrrrccc/FP4DiT) ![](https://img.shields.io/github/stars/cccrrrccc/FP4DiT)
-* [[Arxiv]](https://arxiv.org/abs/2503.06545) QuantCache: Adaptive Importance-Guided Quantization with Hierarchical Latent and Layer Caching for Video Generation [[code]](https://github.com/JunyiWuCode/QuantCache) ![](https://img.shields.io/github/stars/JunyiWuCode/QuantCache)
 * [[Arxiv]](https://arxiv.org/abs/2505.02242) Quantizing Diffusion Models from a Sampling-Aware Perspective
 * [[Arxiv]](https://arxiv.org/abs/2505.11497) QVGen: Pushing the Limit of Quantized Video Generative Models
 * [[Arxiv]](https://arxiv.org/abs/2503.05584) QArtSR: Quantization via Reverse-Module and Timestep-Retraining in One-Step Diffusion based Image Super-Resolution [[code]](https://github.com/libozhu03/QArtSR) ![](https://img.shields.io/github/stars/libozhu03/QArtSR)
 * [[Arxiv]](https://arxiv.org/abs/2503.02508) Q&C: When Quantization Meets Cache in Efficient Image Generation 
 * [[Arxiv]](https://arxiv.org/abs/2505.21591) Pioneering 4-Bit FP Quantization for Diffusion Models: Mixup-Sign Quantization and Timestep-Aware Fine-Tuning
 * [[Arxiv]](https://arxiv.org/abs/2505.18663) DVD-Quant: Data-free Video Diffusion Transformers Quantization [[code]](https://github.com/lhxcs/DVD-Quant) ![](https://img.shields.io/github/stars/lhxcs/DVD-Quant)
+* [[Arxiv]](https://arxiv.org/abs/2507.04290) MPQ-DMv2: Flexible Residual Mixed Precision Quantization for Low-Bit Diffusion Models with Temporal Distillation
+* [[Arxiv]](https://arxiv.org/abs/2506.16054) PAROAttention: Pattern-Aware ReOrdering for Efficient Sparse and Quantized Attention in Visual Generation Models
 
 ### 2024
 
@@ -56,7 +61,6 @@ A list of papers, docs, codes about diffusion quantization. This repo collects v
 * [[AAAI]](https://arxiv.org/abs/2412.14628) Qua2SeDiMo: Quantifiable Quantization Sensitivity of Diffusion Models [[code]](https://github.com/Ascend-Research/Qua2SeDiMo)![](https://img.shields.io/github/stars/Ascend-Research/Qua2SeDiMo)
 * [[AAAI]](https://arxiv.org/abs/2412.16700) TCAQ-DM: Timestep-Channel Adaptive Quantization for Diffusion Models 
 * [[AAAI]](https://ojs.aaai.org/index.php/AAAI/article/view/34039) Optimizing Quantized Diffusion Models via Distillation with Cross-Timestep Error Correction 
-* [[Arxiv]](https://arxiv.org/abs/2402.03666) QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning [[code]](https://github.com/hatchetProject/QuEST)![](https://img.shields.io/github/stars/hatchetProject/QuEST)
 * [[Arxiv]](https://arxiv.org/abs/2405.19751) HQ-DiT: Efficient Diffusion Transformer with FP4 Hybrid Quantization 
 * [[Arxiv]](https://arxiv.org/abs/2408.17131) VQ4DiT: Efficient Post-Training Vector Quantization for Diffusion Transformers
 * [[Arxiv]](https://arxiv.org/abs/2411.14172) TaQ-DiT: Time-aware Quantization for Diffusion Transformers [[code]](https://github.com/yhwangs/TQ-DiT)![](https://img.shields.io/github/stars/yhwangs/TQ-DiT)
